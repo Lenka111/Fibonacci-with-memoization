@@ -41,7 +41,8 @@ public class MemoizationFibonacci {
 
    // }
 
-    void display(){
+    //print the result
+    public void display(){
         for(int i = 0; i < array.length; i++){
            // System.out.println(array[i]);
         }
