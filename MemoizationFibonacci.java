@@ -23,6 +23,7 @@ public class MemoizationFibonacci {
             return 1;
         }
         else if (array[num]==0){
+         //recursively calculate    
          array[num] = fibNum(num-1) + fibNum(num-2);
         }
        return array[num];
