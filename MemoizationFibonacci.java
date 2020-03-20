@@ -2,10 +2,12 @@
 import java.util.Arrays;
 
 public class MemoizationFibonacci {
+    //class fields
     int size;
     private int[] array;
     private int capacity;
 
+    //constructor
     MemoizationFibonacci(int capacity){
         this.size=size;
         this.capacity=capacity;
